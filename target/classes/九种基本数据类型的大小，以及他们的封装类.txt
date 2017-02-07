@@ -1,0 +1,25 @@
+九种基本类型以及对应的封装类分别是：
+byte(Byte), 1byte=8bit
+byte b;//指定变量b为byte型 (最小值-128 最大值127)
+一个常量，保存 byte 类型可取的最大值，即 27-1。(127)
+一个常量，保存 byte 类型可取的最小值，即 -27。(-128)
+
+
+short(Short),
+保存 short 可取的最大值的常量，最大值为 215-1。（32 767）
+保存 short 可取的最小值的常量，最小值为 -215。（-32 768）
+
+int(Integer),
+值为 231－1 的常量，它表示 int 类型能够表示的最大值。
+值为 －231 的常量，它表示 int 类型能够表示的最小值。
+
+long(Long),
+long l;//指定变量l为long型
+保持 long 类型的最大值的常量，该值为 263-1。
+保持 long 类型的最小值的常量，该值为 -263。
+
+char(Character),
+float(Float),
+double(Double),
+boolean(Boolean)，
+void(Void)
