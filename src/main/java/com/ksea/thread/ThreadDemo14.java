@@ -5,7 +5,7 @@ package com.ksea.thread;
  * 初步认识线程组
  * 线程组：将一批线程管理起来，并可以批量操作这批线程
  */
-public class ThreadDemo13 {
+public class ThreadDemo14 {
     public static void main(String[] args) {
 
         MyThreadGroup mytg = new MyThreadGroup();
