@@ -1,0 +1,6 @@
+定义一个接口，用interface 实现一个接口用implements
+
+1、接口中定义的成员变量默认是常量并且是static，默认修饰符就是public static final  如 int num=100;其实就是 public static final int num=100;
+2、接口是没有构造函数的，接口不能进行实例化
+3、接口中的方法默认就是抽象方法并且默认的修饰符是public，也就是接口中只能有方法签名，不能有方法体
+4、接口可以继承多个接口
