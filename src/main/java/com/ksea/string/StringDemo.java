@@ -70,7 +70,7 @@ public class StringDemo {
     }
 
     /* StringTokenizer*/
-    private static void test3() {
+    private static void  test3() {
         String content = "12,212,4434,adfsdf,43543,trertre,34543,cdcsdf,dsfds";
         StringTokenizer sk = new StringTokenizer(content, ",");
         while(sk.hasMoreTokens()){
