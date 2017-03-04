@@ -1,0 +1,24 @@
+package com.ksea.demo1;
+
+/**
+ * Created by mexican on 2017/2/7.
+ */
+public class SwitchDemo {
+    public static void main(String[] args) {
+        String a = "你好";
+        switch (a) {
+            case "你好":
+                System.out.println("a");
+                break;
+            default:
+                System.out.println("默认值");
+                break;
+
+        }
+
+    }
+}
+
+在JDK1.5与1.6之中switch均不支持String字符串类型，
+在JDK1.7之后包括1.7，switch开始支持String字符串类型
+
