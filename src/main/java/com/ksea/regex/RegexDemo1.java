@@ -1,11 +1,11 @@
-package com.ksea.pattern;
+package com.ksea.regex;
 
 /**
  * Created by mexican on 2017/3/7.
  * 模拟正则表达式
  * 效验一个QQ号 是5-10位的数字并且不能以0开头
  */
-public class PatternDemo1 {
+public class RegexDemo1 {
     public static void main(String[] args) {
         System.out.println("当前输入的QQ号是否合法:" + validateQQ("121212"));//true
         System.out.println("当前输入的QQ号是否合法:" + validateQQ("121212332332"));//false
