@@ -28,6 +28,7 @@ public class LinkedListImitateStack {
     }
 }
 
+
 class MyStack {
     //声明LinkedList容器
     private LinkedList linkedList;
