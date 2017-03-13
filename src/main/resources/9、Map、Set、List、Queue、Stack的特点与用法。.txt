@@ -1,0 +1,4 @@
+Set与List均继承与Collection接口
+    数组
+Map本身就是一个顶级接口
+    key=value
