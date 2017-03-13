@@ -1,0 +1,10 @@
+HashMap
+      HashMap是无序的，key与value均可以是null
+TreeMap
+      HashMap是基于红黑树的是有序的，key不能为null，value可以是null
+      当使用默认无参构造new TreeMap()是使用的自然排序
+      当使用对象作为key的时候，该对象必须实现Comparator接口指明按什么排序
+LinkedHashMap
+      LinkedHashMap继承与TreeMap
+      是有序的，这里的有序是基于Linked数据结构，是指数据是怎么存储的就怎么取出
+      key与value均可以是null
