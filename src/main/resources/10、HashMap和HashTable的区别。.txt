@@ -1,0 +1,6 @@
+HashMap
+        非线程安全效率高
+        key与value可以为null
+Hashtable
+        线程安全效率低
+        key与value均不能为null
