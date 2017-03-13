@@ -1,0 +1,2 @@
+Collection是java.util中所有集合的顶级接口
+Collection是java.util中为所有集合提供的一个工具类
