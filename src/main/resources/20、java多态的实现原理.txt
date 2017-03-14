@@ -12,7 +12,8 @@
          Person p2= new Teacher();
 
 
-   如实现:
+   如接口实现多态的表现形式:
 
         List list= new ArrayList();
+
         List list= new LinkedList();
