@@ -1,0 +1,14 @@
+Excetion与Error都继承于Throwable，都是来自于java.lang包下
+
+java.lang.Throwable
+java.lang.Exception
+java.lang.Error
+
+Exception 类及其子类是 Throwable 的一种形式，它指出了合理的应用程序想要捕获的条件。
+
+Error 是 Throwable 的子类，用于指示合理的应用程序不应该试图捕获的严重问题。
+大多数这样的错误都是异常条件。虽然 ThreadDeath 错误是一个“正规”的条件，
+但它也是 Error 的子类，因为大多数应用程序都不应该试图捕获它。
+在执行该方法期间，无需在其 throws 子句中声明可能抛出但是未能捕获的 Error 的任何子类，
+因为这些错误可能是再也不会发生的异常条件。
+比如OOM内存溢出严重的错误
