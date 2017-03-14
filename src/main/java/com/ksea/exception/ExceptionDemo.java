@@ -30,8 +30,3 @@ public class ExceptionDemo {
                 20
     * */
 }
-
-
-此案例说明，当在try,catch,finally 其中try中如果有return的时候，
-从调试的过程中，他是先执行了return的运算结果，但是并没返回，然后直接执行finally，当finally执行完毕之后就直接返回了
-
