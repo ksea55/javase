@@ -1,0 +1,37 @@
+package com.ksea.exception;
+
+/**
+ * Created by mexican on 2017/3/14.
+ */
+public class ExceptionDemo {
+    public static void main(String[] args) {
+        System.out.println(myTest());
+
+    }
+
+    public static int myTest() {
+        try {
+            int a = 10;
+            int b = 2;
+            int c = 0;
+            return (c = a * b);
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            System.out.println("finally被执行!");
+        }
+
+        return 0;
+    }
+
+    /*
+    * 执行结果:
+    *           finally被执行!
+                20
+    * */
+}
+
+
+此案例说明，当在try,catch,finally 其中try中如果有return的时候，
+从调试的过程中，他是先执行了return的运算结果，但是并没返回，然后直接执行finally，当finally执行完毕之后就直接返回了
+

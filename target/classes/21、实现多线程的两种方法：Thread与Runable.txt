@@ -1,0 +1,6 @@
+线程的两种实现方式:
+   1、extends Thread
+
+   2、implments Runnable
+
+
