@@ -4,6 +4,7 @@ import java.io.*;
 
 /**
  * Created by mexican on 2017/3/17.
+ * 简单实现IO的读取与写入
  */
 public class SimpleIO {
     public static void main(String[] args) {
