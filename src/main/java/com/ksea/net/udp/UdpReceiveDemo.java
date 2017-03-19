@@ -3,6 +3,7 @@ package com.ksea.net.udp;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
+import java.net.InetAddress;
 
 /**
  * Created by mexican on 2017/3/19.
@@ -73,8 +74,9 @@ public class UdpReceiveDemo {
         int len = receiveDataPacket.getLength();
 
         String receiveResullt = new String(receiveBytes, 0, len);
-
-        System.out.println(receiveResullt); //输出结果:hello,udp协议 这里就获取到发送端的数据信息
+        //获取发送方的IP
+        InetAddress inetAddress = receiveDataPacket.getAddress();
+        System.out.println("发送方IP："+inetAddress.getHostAddress()+"、接受信息:"+receiveResullt); //输出结果:发送方IP：127.0.0.1、接受信息:hello,udp协议
 
         /*
         第五步:
