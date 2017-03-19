@@ -24,7 +24,7 @@ public class UploadClient {
         }
 
         //通知服务器客户端已经上传完毕
-        clientSocket.shutdownOutput(); //这里是必须要的，不然会造成服务器端一直处于阻塞等待
+        clientSocket.shutdownOutput(); //这里是必须要的，不然会造成服务器端一直处于阻塞等待.
 
         //读取服务器反馈的信息
         InputStream serverReader = clientSocket.getInputStream();
