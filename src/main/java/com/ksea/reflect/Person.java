@@ -6,9 +6,9 @@ package com.ksea.reflect;
  */
 public class Person {
 
-    private String name; //姓名
-    private Integer age;//年龄
-    private String hobby;//爱好
+    public String name; //姓名    public修饰符
+           Integer age;//年龄     默认修饰符
+    private String hobby;//爱好   private私有修饰符
 
     //无参构造函数
     public Person() {
