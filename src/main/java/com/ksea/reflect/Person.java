@@ -7,7 +7,7 @@ package com.ksea.reflect;
 public class Person {
 
     public String name; //姓名    public修饰符
-           Integer age;//年龄     默认修饰符
+    Integer age;//年龄     默认修饰符
     private String hobby;//爱好   private私有修饰符
 
     //无参构造函数
@@ -45,7 +45,13 @@ public class Person {
 
     public String show(String name, Integer age) {
         System.out.println("有参函数并带有返回值的方法被调用了!");
-        return this.name + "、" + age;
+        return name + "、" + age;
+    }
+
+    /*私有方法*/
+    private String show(String name, String hobby) {
+
+        return "他是:" + name + "、爱好:" + hobby;
     }
 
 
