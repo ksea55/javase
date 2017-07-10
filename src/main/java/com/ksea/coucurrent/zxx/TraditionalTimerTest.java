@@ -40,6 +40,7 @@ public class TraditionalTimerTest {
         //任务子弹类
         class MyTimerTask extends TimerTask {
 
+
             @Override
             public void run() {
                 System.out.println("炸弹爆炸了....");
