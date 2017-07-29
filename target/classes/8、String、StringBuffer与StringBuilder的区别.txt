@@ -1,8 +1,0 @@
-String
-      String 是final修饰的类，不可继承，内容不可变
-
-StringBuffer
-            是线程安全的，内容可变，效率低
-
-StringBuilder
-            不是线程安全的，内容可变，效率高

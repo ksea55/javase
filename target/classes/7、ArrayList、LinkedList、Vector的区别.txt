@@ -1,6 +1,0 @@
-
-ArrayList,LinkedList,Vector 三种数据接口均实现了List
-
-ArrayList   底层的数据结构是数组，其查询块，增删慢，不是线程同步的
-Vector      底层的数据结构是数组，其查询块，增删慢，是线程同步的，因此效率低于ArrayList 一般不推荐使用Vector
-LinkedList  底层的数据结构是链表，其查询慢(因为链表每次查询都的从头开始查找),增删块，不是线程同步的
