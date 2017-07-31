@@ -11,10 +11,11 @@ import java.util.Set;
 public class TestDemo {
     public static void main(String[] args) {
         String inputParams = "AABBAaa";
-        //  System.out.println(get(inputParams));
-        System.out.println(get_(inputParams));
+         System.out.println(get(inputParams));
+        //System.out.println(get_(inputParams));
     }
 
+    //这种方式当某个连续的值一样的时候，或者说 key一样的时候 value可能会呗覆盖
     public static String get(String inputParams) {
 
         Map<String, Integer> resultMap = new LinkedHashMap<>();
@@ -39,16 +40,13 @@ public class TestDemo {
 
             if (src.equals(next)) {
                 count += 1;
-                resultMap.put(src, count);
                 continue;
             }
-
             resultMap.put(src, count);
-
             count = 1;
             src = String.valueOf(chars[i]);
-            resultMap.put(src, count);
         }
+        resultMap.put(src, count);
 
 
         StringBuilder sb = new StringBuilder();
